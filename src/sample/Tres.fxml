@@ -6,8 +6,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" style="-fx-background-color: #9effbd;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplicationController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" style="-fx-background-color: #9effbd;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <GridPane layoutY="2.0" prefHeight="300.0" prefWidth="600.0">
         <columnConstraints>
@@ -32,15 +31,15 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Button mnemonicParsing="false" prefHeight="151.0" prefWidth="109.0" />
-                        <Button mnemonicParsing="false" prefHeight="180.0" prefWidth="196.0" GridPane.columnIndex="2" />
-                        <Button mnemonicParsing="false" prefHeight="166.0" prefWidth="216.0" GridPane.columnIndex="1" />
-                        <Button mnemonicParsing="false" prefHeight="194.0" prefWidth="194.0" GridPane.rowIndex="1" />
-                        <Button mnemonicParsing="false" prefHeight="213.0" prefWidth="172.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <Button mnemonicParsing="false" prefHeight="223.0" prefWidth="137.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                        <Button mnemonicParsing="false" prefHeight="203.0" prefWidth="147.0" GridPane.rowIndex="2" />
-                        <Button mnemonicParsing="false" prefHeight="184.0" prefWidth="143.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <Button mnemonicParsing="false" prefHeight="180.0" prefWidth="142.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Button fx:id="bt1" mnemonicParsing="false" onAction="#clickButton" prefHeight="151.0" prefWidth="109.0" />
+                        <Button fx:id="bt3" mnemonicParsing="false" onAction="#clickButton" prefHeight="180.0" prefWidth="196.0" GridPane.columnIndex="2" />
+                        <Button fx:id="bt2" mnemonicParsing="false" onAction="#clickButton" prefHeight="166.0" prefWidth="216.0" GridPane.columnIndex="1" />
+                        <Button fx:id="bt4" mnemonicParsing="false" onAction="#clickButton" prefHeight="194.0" prefWidth="194.0" GridPane.rowIndex="1" />
+                        <Button fx:id="bt5" mnemonicParsing="false" onAction="#clickButton" prefHeight="213.0" prefWidth="172.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Button fx:id="bt6" mnemonicParsing="false" onAction="#clickButton" prefHeight="223.0" prefWidth="137.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Button fx:id="bt7" mnemonicParsing="false" onAction="#clickButton" prefHeight="203.0" prefWidth="147.0" GridPane.rowIndex="2" />
+                        <Button fx:id="bt8" mnemonicParsing="false" onAction="#clickButton" prefHeight="184.0" prefWidth="143.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Button fx:id="bt9" mnemonicParsing="false" onAction="#clickButton" prefHeight="180.0" prefWidth="142.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                      </children>
                   </GridPane>
                </children>
@@ -76,7 +75,7 @@
                               <Font size="20.0" />
                            </font>
                         </RadioButton>
-                        <Label fx:id="lb1" alignment="CENTER" prefHeight="14.0" prefWidth="353.0" text="TURNO">
+                        <Label fx:id="lb1" alignment="CENTER" prefHeight="14.0" prefWidth="353.0">
                            <VBox.margin>
                               <Insets right="10.0" top="20.0" />
                            </VBox.margin>
